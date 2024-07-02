@@ -7,7 +7,7 @@ body {
 #main {
   width: 330px;
   height: 100vh;
-  /* border: 3px solid white; */
+  border: 3px solid white;
   background-color: rgba(25, 25, 25, 0.685);
 }
 #header {
@@ -21,7 +21,7 @@ body {
   flex-wrap: wrap;
 }
 #nameHeading {
-  margin-left: 0.3rem;
+  margin-left: 0rem;
   color: rgb(255, 213, 3);
   font-size: 1.3rem;
   margin-bottom: 0rem;
@@ -48,7 +48,7 @@ body {
   }
 }
 #dev {
-  margin-left: 1.6rem;
+  margin-left: 1.3rem;
   color: white;
   font-size: 0.95rem;
   margin-bottom: 0.3rem;
@@ -59,7 +59,7 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   color: rgb(164, 164, 164);
-  margin-left: 1.5rem;
+  margin-left: 1.3rem;
   margin-top: 1.2rem;
   margin-right: 0.4rem;
   font-family: "Acme", sans-serif;
@@ -76,7 +76,7 @@ body {
     font-size: 2rem;
 }
 #githubIcon{
-  margin-left: 1.4rem;
+  margin-left: 1.25rem;
   color: rgb(143, 143, 143);
   transition-duration: 0.5s;
   transition-timing-function: ease-in;
@@ -87,7 +87,7 @@ body {
  
 }
 #mailIcon{
-  margin-left: 0.3rem;
+  margin-left: 0.5rem;
   color: rgb(143, 143, 143);
   transition-duration: 0.5s;
   transition-timing-function: ease-in;
@@ -97,7 +97,7 @@ body {
  
 }
 #linkdinIcon{
-  margin-left: 0.3rem;
+  margin-left: 0.5rem;
   color: rgb(143, 143, 143);
   transition-duration: 0.5s;
   transition-timing-function: ease-in;
@@ -110,7 +110,7 @@ body {
   line-height: 1.25rem;
   color: rgb(164, 164, 164);
   font-weight: 700;
-  margin-left: 1.5rem;
+  margin-left: 1.25rem;
   margin-top: 1.2rem;
   margin-right: 0.4rem;
   font-family: "Acme", sans-serif;
