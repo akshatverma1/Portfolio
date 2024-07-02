@@ -202,8 +202,8 @@ cr{
   display: flex;
   justify-content: center;
   justify-items: center;
-  width: 100vh;
-  height: 100vh;
+  /* width: 100vh;
+  height: 100vh; */
   font-family: "Acme",sans-serif;
   font-family: 700;
   color: white;
