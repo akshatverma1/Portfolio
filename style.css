@@ -21,7 +21,7 @@ body {
   flex-wrap: wrap;
 }
 #nameHeading {
-  margin-left: 0.5rem;
+  margin-left: 0.3rem;
   color: rgb(255, 213, 3);
   font-size: 1.3rem;
   margin-bottom: 0rem;
@@ -30,6 +30,7 @@ body {
   text-transform: uppercase;
   font-style: normal;
   animation: devAnimation 3s ease-in-out 0s infinite normal;
+  -webkit-animation: devAnimation 3s ease-in-out 0s infinite normal;
 }
 
 @keyframes devAnimation {
@@ -47,7 +48,7 @@ body {
   }
 }
 #dev {
-  margin-left: 1.8rem;
+  margin-left: 1.6rem;
   color: white;
   font-size: 0.95rem;
   margin-bottom: 0.3rem;
@@ -58,7 +59,7 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   color: rgb(164, 164, 164);
-  margin-left: 1.7rem;
+  margin-left: 1.5rem;
   margin-top: 1.2rem;
   margin-right: 0.4rem;
   font-family: "Acme", sans-serif;
@@ -75,7 +76,7 @@ body {
     font-size: 2rem;
 }
 #githubIcon{
-  margin-left: 1.6rem;
+  margin-left: 1.4rem;
   color: rgb(143, 143, 143);
   transition-duration: 0.5s;
   transition-timing-function: ease-in;
@@ -86,7 +87,7 @@ body {
  
 }
 #mailIcon{
-  margin-left: 0.5rem;
+  margin-left: 0.3rem;
   color: rgb(143, 143, 143);
   transition-duration: 0.5s;
   transition-timing-function: ease-in;
@@ -96,7 +97,7 @@ body {
  
 }
 #linkdinIcon{
-  margin-left: 0.5rem;
+  margin-left: 0.3rem;
   color: rgb(143, 143, 143);
   transition-duration: 0.5s;
   transition-timing-function: ease-in;
@@ -109,7 +110,7 @@ body {
   line-height: 1.25rem;
   color: rgb(164, 164, 164);
   font-weight: 700;
-  margin-left: 1.7rem;
+  margin-left: 1.5rem;
   margin-top: 1.2rem;
   margin-right: 0.4rem;
   font-family: "Acme", sans-serif;
@@ -133,7 +134,7 @@ body {
   font-weight: 700;
   font-style: normal;
   margin-top: 0.6rem;
-  margin-left: 3rem;
+  margin-left: 2rem;
   margin-right: 1.5rem;
 }
 #projectIcon{
@@ -141,7 +142,7 @@ body {
   color: rgb(0, 255, 213);
   font-weight: 700;
   font-family: "Acme",sans-serif;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 .backgroundStack{
   background-color: black;
@@ -151,6 +152,10 @@ body {
   color: white;
   font-weight: 500;
   font-size: 0.85rem;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 .backgroundStack:hover{
   background-color: rgb(255, 255, 255);
@@ -163,12 +168,12 @@ body {
   height: 350px;
 }
 #rroomsLive{
-  margin-left: 3rem;
+  margin-left: 2rem;
   font-weight: 700;
   font-family: "Acme",sans-serif;
   font-size: 0.75rem;
   color: rgb(0, 255, 213);
-  margin-left: 3rem;
+  margin-left: 2rem;
   margin-top: 1rem;
   border: 2px solid rgba(255, 255, 255, 0.548);
   border-radius: 3px;
