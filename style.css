@@ -13,6 +13,9 @@ body {
 /*   border: 3px solid white; */
   background-color: rgba(25, 25, 25, 0.685);
   margin: 0px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 #header {
   height: 2rem;
@@ -183,6 +186,7 @@ body {
   border-radius: 3px;
   padding: 0.3rem;
   background-color: black;
+  margin-bottom: 6rem;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -193,4 +197,23 @@ body {
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
   color: black;
+}
+cr{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 330px;
+  height: 100vh;
+  font-family: "Acme",sans-serif;
+  font-family: 700;
+  color: white;
+  font-size: 0.75rem;
+  /* margin-left: 6rem; */
+  /* margin-top: 7rem; */
+  /* margin-bottom: 4rem; */
+  /* height: 450px; */
+}
+ak{
+  margin-left: 0.2rem;
+  color: red;
 }
