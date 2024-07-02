@@ -10,7 +10,7 @@ body {
 #main {
   width: 330px;
   height: 100vh;
-  border: 3px solid white;
+/*   border: 3px solid white; */
   background-color: rgba(25, 25, 25, 0.685);
   margin: 0px;
 }
