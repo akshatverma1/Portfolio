@@ -204,6 +204,7 @@ cr{
   justify-items: center;
   /* width: 100vh;
   height: 100vh; */
+  height: 100px;
   font-family: "Acme",sans-serif;
   font-family: 700;
   color: white;
@@ -212,6 +213,7 @@ cr{
   /* margin-top: 7rem; */
   /* margin-bottom: 4rem; */
   /* height: 450px; */
+  margin-bottom: 7rem;
 }
 ak{
   margin-left: 0.2rem;
