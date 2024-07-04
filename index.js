@@ -8,5 +8,8 @@ app.listen(port,(req,res)=>{
 })
 
 app.get("/projects",(req,res)=>{
-    res.render("project.ejs");
+    res.addListener("click",()=>{
+        let j ="https://github.com/akshatverma1";
+        location.href=j;
+    })
 })
