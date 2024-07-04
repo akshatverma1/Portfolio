@@ -7,6 +7,6 @@ app.listen(port,(req,res)=>{
     console.log("port is this = "+port);
 })
 
-app.get("/projects",(req,res)=>{
+app.get("https://www.akshat.life/projects",(req,res)=>{
     res.render("project.ejs");
 })
